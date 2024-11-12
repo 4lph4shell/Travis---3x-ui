@@ -14,6 +14,8 @@ It will support Sanai and Alireza x-ui panels
 ```
 git clone https://github.com/4lph4shell/Travis---3x-ui.git
 ```
+If you what to use this file ` Contact to Alpha Team `
+
 # You can add several panels 
  <p align="center">
 <img src="https://github.com/4lph4shell/Travis---3x-ui/blob/master/Screenshot%202024-11-12%20183823.png" >
