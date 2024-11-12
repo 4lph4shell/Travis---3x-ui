@@ -1,0 +1,152 @@
+ /* Dark-Themed GitHub-Inspired UI */
+
+ @font-face {
+    font-family: vazir;
+    src: url('assets/fonts/Vazirmatn.woff2');
+    src: url('Vazirmatn.woff2') format('embedded-opentype'),
+      url('Vazirmatn.woff2') format('woff'),
+      url('Vazirmatn.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+  }
+
+  .header,
+  .footer-section {
+    background-color: #000000;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .header img,
+  .footer-section a {
+    max-height: 40px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .content-center {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000000;
+  }
+
+  .searchbar {
+    width: 60%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #444444;
+    border-radius: 6px;
+    margin: 15px 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+
+  .searchbar::placeholder {
+    color: #888888;
+  }
+
+  .button {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button:hover {
+    background-color: #218838;
+  }
+
+  .lang-selector {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .lang-selector a {
+    color: #36a3f7;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .lang-selector a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-bar {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .footer-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer-bar a:hover {
+    color: #36a3f7;
+  }
+
+  .banner img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+  }
+
+  .lottie-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .panel-name-sec {
+    padding: 15px 15px;
+    font-size: 16px;
+    border: 3px solid #444444;
+    border-radius: 25px;
+    margin: 13px 0;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .p-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: vazir !important;
+    direction: ltr;
+    font-style: bold;
+    border: 1px solid #444444;
+    border-radius: 25px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 10px 20px;
+    /* add some padding to the text */
+    box-sizing: border-box;
+    /* make the border size adjust to the text length */
+    min-width: 50px;
+    /* set a minimum width for the element */
+    font-size: 20px;
+    text-align: center;
+    width: fit-content;
+  }
