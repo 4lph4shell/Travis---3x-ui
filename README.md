@@ -11,9 +11,9 @@ It will support Sanai and Alireza x-ui panels
 ` it will search the config just with name `
 
 # this is test file and just for seen
-`
+```
 git clone https://github.com/4lph4shell/Travis---3x-ui.git
-`
+```
 # You can add several panels 
  <p align="center">
 <img src="https://github.com/4lph4shell/Travis---3x-ui/blob/master/Screenshot%202024-11-12%20183823.png" >
